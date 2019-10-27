@@ -1,7 +1,7 @@
 <annotation>
-	<folder>test</folder>
+	<folder>images</folder>
 	<filename>1.jpg</filename>
-	<path>C:\Users\wangx\object_detection_demo\data\images\test\1.jpg</path>
+	<path>C:\Users\wangx\object_detection_demo\data\images\1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>26</xmin>
-			<ymin>147</ymin>
-			<xmax>605</xmax>
-			<ymax>475</ymax>
+			<xmin>36</xmin>
+			<ymin>152</ymin>
+			<xmax>596</xmax>
+			<ymax>474</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>skystone_base</name>
+		<name>ftc_base</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>23</xmin>
+			<xmin>21</xmin>
 			<ymin>264</ymin>
-			<xmax>670</xmax>
-			<ymax>484</ymax>
+			<xmax>692</xmax>
+			<ymax>485</ymax>
 		</bndbox>
 	</object>
 </annotation>
