@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>96.jpg</filename>
+	<path>C:\Users\wangx\object_detection_demo\data\images\96.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ftc_stone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>8</ymin>
+			<xmax>752</xmax>
+			<ymax>463</ymax>
+		</bndbox>
+	</object>
+</annotation>
