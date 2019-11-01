@@ -9,17 +9,27 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('..\\screen.png', 1)
-h, w, c = img.shape
-print (h, w, c)
-edges = cv.Canny(img,100,200)
-plt.subplot(121),plt.imshow(img,cmap = 'gray')
-plt.title('Original Image'), plt.xticks([]), plt.yticks([])
-plt.subplot(122),plt.imshow(edges,cmap = 'gray')
-plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
-plt.show()
+
+
+def test1():
+    img = cv.imread('screen.png', 1)
+    h, w, c = img.shape
+    print(h, w, c)
+
+    edges = cv.Canny(img,100,200)
+    plt.subplot(121),plt.imshow(img,cmap = 'gray')
+    plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+    plt.subplot(122),plt.imshow(edges,cmap = 'gray')
+    plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+    plt.show();
+
 
 def make_image():
+    img = cv.imread('screen.png', 1)
+    #return img;
+    print(type(img))
+    h, w, c = img.shape
+    print(h, w, c)
     #img = np.zeros((500, 500), np.uint8)
     black, white = 0, 255
     for i in xrange(6):
@@ -53,16 +63,17 @@ def main():
     h, w = img.shape[:2]
 
     imgray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-    plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2GRAY))
+    plt.subplot(131), plt.imshow(imgray)
+    plt.subplot(132), plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))
+    imghsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
+    plt.subplot(133), plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2HSV))
     plt.show()
 
-    plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))
+    ret, blackAndWhiteImage = cv.threshold(imgray, 127, 255, 0)
+    plt.imshow(blackAndWhiteImage)
     plt.show()
 
-    ret, thresh = cv.threshold(imgray, 50, 50, 0)
-    contours0, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
-    #contours0, hierarchy = cv.findContours( img.copy(), cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
-
+    contours0, hierarchy = cv.findContours( blackAndWhiteImage, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
     contours = [cv.approxPolyDP(cnt, 3, True) for cnt in contours0]
 
     def update(levels):

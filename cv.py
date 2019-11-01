@@ -61,6 +61,7 @@ def main():
         cv.drawContours( vis, contours, (-1, 2)[levels <= 0], (128,255,255),
             3, cv.LINE_AA, hierarchy, abs(levels) )
         cv.imshow('contours', vis)
+        print(levels)
     update(3)
     cv.createTrackbar( "levels+3", "contours", 3, 7, update )
     cv.imshow('image', img)
