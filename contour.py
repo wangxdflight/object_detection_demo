@@ -1,0 +1,84 @@
+from __future__ import print_function
+import sys
+PY3 = sys.version_info[0] == 3
+
+if PY3:
+    xrange = range
+
+import numpy as np
+import cv2 as cv
+from matplotlib import pyplot as plt
+
+img = cv.imread('..\\screen.png', 1)
+h, w, c = img.shape
+print (h, w, c)
+edges = cv.Canny(img,100,200)
+plt.subplot(121),plt.imshow(img,cmap = 'gray')
+plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+plt.subplot(122),plt.imshow(edges,cmap = 'gray')
+plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+plt.show()
+
+def make_image():
+    #img = np.zeros((500, 500), np.uint8)
+    black, white = 0, 255
+    for i in xrange(6):
+        dx = int((i%2)*250 - 30)
+        dy = int((i/2.)*150)
+
+        if i == 0:
+            for j in xrange(11):
+                angle = (j+5)*np.pi/21
+                c, s = np.cos(angle), np.sin(angle)
+                x1, y1 = np.int32([dx+100+j*10-80*c, dy+100-90*s])
+                x2, y2 = np.int32([dx+100+j*10-30*c, dy+100-30*s])
+                cv.line(img, (x1, y1), (x2, y2), white)
+
+        cv.ellipse( img, (dx+150, dy+100), (100,70), 0, 0, 360, white, -1 )
+        cv.ellipse( img, (dx+115, dy+70), (30,20), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+185, dy+70), (30,20), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+115, dy+70), (15,15), 0, 0, 360, white, -1 )
+        cv.ellipse( img, (dx+185, dy+70), (15,15), 0, 0, 360, white, -1 )
+        cv.ellipse( img, (dx+115, dy+70), (5,5), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+185, dy+70), (5,5), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+150, dy+100), (10,5), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+150, dy+150), (40,10), 0, 0, 360, black, -1 )
+        cv.ellipse( img, (dx+27, dy+100), (20,35), 0, 0, 360, white, -1 )
+        cv.ellipse( img, (dx+273, dy+100), (20,35), 0, 0, 360, white, -1 )
+    return img
+
+def main():
+    img = make_image()
+    #img = edges
+    h, w = img.shape[:2]
+
+    imgray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+    plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2GRAY))
+    plt.show()
+
+    plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))
+    plt.show()
+
+    ret, thresh = cv.threshold(imgray, 50, 50, 0)
+    contours0, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+    #contours0, hierarchy = cv.findContours( img.copy(), cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+
+    contours = [cv.approxPolyDP(cnt, 3, True) for cnt in contours0]
+
+    def update(levels):
+        vis = np.zeros((h, w, 3), np.uint8)
+        levels = levels - 3
+        cv.drawContours( vis, contours, (-1, 2)[levels <= 0], (128,255,255),
+            3, cv.LINE_AA, hierarchy, abs(levels) )
+        cv.imshow('contours', vis)
+    update(3)
+    cv.createTrackbar( "levels+3", "contours", 3, 7, update )
+    cv.imshow('image', img)
+    cv.waitKey()
+    print('Done')
+
+
+if __name__ == '__main__':
+    print(__doc__)
+    main()
+    cv.destroyAllWindows()
