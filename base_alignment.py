@@ -10,7 +10,8 @@ import cv2 as cv
 from matplotlib import pyplot as plt
 
 def test1():
-    img = cv.imread('../ftc_base.png', 1)
+    img = cv.imread('ftc_base.jpg', 1)
+
     h, w, c = img.shape
     print(h, w, c)
 
@@ -23,8 +24,8 @@ def test1():
 
 
 def make_image():
-    img = cv.imread('screen.png', 1)
-    #return img;
+    #img = cv.imread('ftc_base.jpg', 1)
+    img = cv.imread('skystones_2.jpg', 1)
     print(type(img))
     h, w, c = img.shape
     print(h, w, c)
@@ -60,6 +61,19 @@ def main():
     #img = edges
     h, w = img.shape[:2]
 
+    scale_percent = 20  # percent of original size
+    width = int(img.shape[1] * scale_percent / 100)
+    height = int(img.shape[0] * scale_percent / 100)
+    dim = (width, height)
+    # resize image
+    resized = cv.resize(img, dim, interpolation=cv.INTER_AREA)
+
+    print('Resized Dimensions : ', resized.shape)
+
+    cv.imshow("Resized image", resized)
+    cv.waitKey(0)
+    img=resized;
+
     imgray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     plt.subplot(131), plt.imshow(imgray)
     plt.subplot(132), plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))
@@ -75,7 +89,7 @@ def main():
     contours = [cv.approxPolyDP(cnt, 3, True) for cnt in contours0]
 
     def update(levels):
-        vis = np.zeros((h, w, 3), np.uint8)
+        vis = np.zeros((height, width, 3), np.uint8)
         levels = levels - 3
         cv.drawContours( vis, contours, (-1, 2)[levels <= 0], (128,255,255),
             3, cv.LINE_AA, hierarchy, abs(levels) )
@@ -85,7 +99,7 @@ def main():
     cv.imshow('image', img)
     cv.waitKey()
     print('Done')
-
+    cv.destroyAllWindows()
 
 if __name__ == '__main__':
     print(__doc__)
