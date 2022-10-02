@@ -43,7 +43,7 @@ def main(_):
 
     def load_pb(path_to_pb):
         print("load_pb")
-        with tf.gfile.GFile(path_to_pb, "rb") as f:
+        with tf.io.gfile.GFile(path_to_pb, "rb") as f:
             graph_def = tf.GraphDef()
             graph_def.ParseFromString(f.read())
         with tf.Graph().as_default() as graph:
