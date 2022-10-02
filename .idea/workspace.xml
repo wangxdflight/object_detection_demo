@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/generate_tfrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_tfrecord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
