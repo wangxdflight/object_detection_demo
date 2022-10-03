@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs_tf2/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config" beforeDir="false" afterPath="$PROJECT_DIR$/configs_tf2/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
