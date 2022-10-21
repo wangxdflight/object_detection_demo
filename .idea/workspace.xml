@@ -4,11 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="" />
+    <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame57.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/annotations/frame77.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/object_detection_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/object_detection_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,13 +62,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/wangx/ftc/object_detection_demo/split_data.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="object_detection_demo" is-module-sdk="true">
@@ -38,6 +77,29 @@
         <option name="myModuleName" value="object_detection_demo" />
       </console-settings>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="split_data" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="object_detection_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/split_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
