@@ -1,0 +1,26 @@
+<annotation>
+	<folder>output</folder>
+	<filename>frame21.jpg</filename>
+	<path>C:\Users\Jerem\StudioProjects\rb3\python_scripts\output\frame21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>150</ymin>
+			<xmax>269</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+</annotation>
