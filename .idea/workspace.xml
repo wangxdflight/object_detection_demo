@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame57.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame73.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame77.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/object_detection_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/object_detection_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -6,3 +6,4 @@ models/*
 .idea/*
 *.bak
 pretrained/*
+.idea/workspace.xml

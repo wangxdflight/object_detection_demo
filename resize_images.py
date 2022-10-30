@@ -2,6 +2,8 @@ import os
 import glob
 import cv2
 
+# python resize_images.py --raw-dir ./data/raw --save-dir ./data/images --ext jpg --target-size "(800, 600)"
+
 if __name__ == "__main__":
     import argparse
 
