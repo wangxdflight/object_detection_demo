@@ -12,15 +12,51 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>323</ymin>
+			<xmax>640</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>143</ymin>
+			<xmax>640</xmax>
+			<ymax>334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>109</ymin>
+			<xmax>640</xmax>
+			<ymax>328</ymax>
+		</bndbox>
+	</object>
+	<object>
 		<name>tip</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>262</xmin>
-			<ymin>228</ymin>
-			<xmax>316</xmax>
-			<ymax>267</ymax>
+			<xmin>280</xmin>
+			<ymin>300</ymin>
+			<xmax>351</xmax>
+			<ymax>371</ymax>
 		</bndbox>
 	</object>
 </annotation>
