@@ -1,7 +1,7 @@
 <annotation>
-	<folder>output</folder>
+	<folder>All</folder>
 	<filename>frame50.jpg</filename>
-	<path>C:\Users\Jerem\StudioProjects\rb3\python_scripts\output\frame50.jpg</path>
+	<path>C:\Users\Jerem\StudioProjects\rb3\python_scripts\11.6.22 Cone Data Label Set\All\frame50.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>622</xmin>
-			<ymin>264</ymin>
-			<xmax>640</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>640</xmin>
-			<ymin>108</ymin>
-			<xmax>640</xmax>
-			<ymax>299</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>cone</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>640</xmin>
-			<ymin>70</ymin>
-			<xmax>640</xmax>
-			<ymax>291</ymax>
-		</bndbox>
-	</object>
 </annotation>
