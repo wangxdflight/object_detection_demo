@@ -6,9 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>480</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>512</xmin>
+			<ymin>288</ymin>
+			<xmax>613</xmax>
+			<ymax>388</ymax>
+		</bndbox>
+	</object>
 </annotation>

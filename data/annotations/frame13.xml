@@ -1,13 +1,13 @@
 <annotation>
-	<folder>All</folder>
+	<folder>output</folder>
 	<filename>frame13.jpg</filename>
-	<path>C:\Users\Jerem\StudioProjects\rb3\python_scripts\11.6.22 Cone Data Label Set\All\frame13.jpg</path>
+	<path>C:\Users\Jerem\StudioProjects\rb3\python_scripts\output\frame13.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>640</width>
-		<height>480</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>394</xmin>
-			<ymin>215</ymin>
-			<xmax>452</xmax>
-			<ymax>282</ymax>
+			<xmin>49</xmin>
+			<ymin>201</ymin>
+			<xmax>186</xmax>
+			<ymax>338</ymax>
 		</bndbox>
 	</object>
 </annotation>
