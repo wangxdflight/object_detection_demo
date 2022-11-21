@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame57.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame73.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/annotations/frame77.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/object_detection_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/object_detection_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="7c1831ef-88a1-432e-b771-d3589c5f0f93" name="Changes" comment="changing raw file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,14 +31,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/wangx/ftc/object_detection_demo/split_data.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Jerem/object_detection_demo",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="object_detection_demo" is-module-sdk="true">
@@ -110,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664687731131</updated>
     </task>
+    <task id="LOCAL-00001" summary="changing raw file">
+      <created>1669011816148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669011816148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -136,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changing raw file" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing raw file" />
   </component>
 </project>
