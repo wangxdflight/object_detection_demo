@@ -1,0 +1,26 @@
+<annotation>
+	<folder>redBackgroundRedBase</folder>
+	<filename>aframe201.jpg</filename>
+	<path>C:\Users\11007\vision\object_detection_demo\data\raw\FionaImages\redBackgroundRedBase\aframe201.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>2</ymin>
+			<xmax>351</xmax>
+			<ymax>110</ymax>
+		</bndbox>
+	</object>
+</annotation>

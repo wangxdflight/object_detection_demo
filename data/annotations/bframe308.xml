@@ -1,0 +1,26 @@
+<annotation>
+	<folder>redBackgroundNoBase</folder>
+	<filename>bframe308.jpg</filename>
+	<path>C:\Users\11007\vision\object_detection_demo\data\raw\FionaImages\redBackgroundNoBase\bframe308.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>391</xmin>
+			<ymin>275</ymin>
+			<xmax>530</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>
