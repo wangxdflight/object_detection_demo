@@ -1,0 +1,26 @@
+<annotation>
+	<folder>blueBackgroundNoBase</folder>
+	<filename>eframe280.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\KyleImages\blueBackgroundNoBase\eframe280.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>234</ymin>
+			<xmax>424</xmax>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+</annotation>

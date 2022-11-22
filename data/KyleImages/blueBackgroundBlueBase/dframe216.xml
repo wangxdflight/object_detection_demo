@@ -1,0 +1,26 @@
+<annotation>
+	<folder>blueBackgroundBlueBase</folder>
+	<filename>dframe216.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\KyleImages\blueBackgroundBlueBase\dframe216.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>621</xmin>
+			<ymin>212</ymin>
+			<xmax>726</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+</annotation>

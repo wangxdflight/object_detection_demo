@@ -1,0 +1,26 @@
+<annotation>
+	<folder>redBackgroundBlueBase</folder>
+	<filename>frame56.jpg</filename>
+	<path>C:\Users\11007\vision\object_detection_demo\data\raw\FionaImages\redBackgroundBlueBase\frame56.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>66</ymin>
+			<xmax>668</xmax>
+			<ymax>188</ymax>
+		</bndbox>
+	</object>
+</annotation>
