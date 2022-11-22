@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunglightRedBackgroundRedBase</folder>
+	<filename>nframe109.jpg</filename>
+	<path>C:\Users\Jerem\TEMPobject_detection_demo\data\raw\newAssignmentFiona\sunglightRedBackgroundRedBase\nframe109.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>476</xmin>
+			<ymin>99</ymin>
+			<xmax>599</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>

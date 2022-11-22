@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunglightBlueBackgroundRedBase</folder>
+	<filename>jframe124.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentKyle\sunglightBlueBackgroundRedBase\jframe124.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>446</xmin>
+			<ymin>324</ymin>
+			<xmax>579</xmax>
+			<ymax>462</ymax>
+		</bndbox>
+	</object>
+</annotation>

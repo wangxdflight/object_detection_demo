@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunglightBlueBackgroundNoBase</folder>
+	<filename>iframe70.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentFiona\sunglightBlueBackgroundNoBase\iframe70.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>586</xmin>
+			<ymin>156</ymin>
+			<xmax>694</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>

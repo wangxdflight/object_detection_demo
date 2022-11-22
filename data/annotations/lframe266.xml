@@ -1,0 +1,26 @@
+<annotation>
+	<folder>shadeBlueBackgroundNoBase</folder>
+	<filename>lframe266.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentKyle\shadeBlueBackgroundNoBase\lframe266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>279</xmin>
+			<ymin>150</ymin>
+			<xmax>513</xmax>
+			<ymax>384</ymax>
+		</bndbox>
+	</object>
+</annotation>

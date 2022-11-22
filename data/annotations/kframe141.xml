@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunglightBlueBackgroundBlueBase</folder>
+	<filename>kframe141.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentKyle\sunglightBlueBackgroundBlueBase\kframe141.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>534</xmin>
+			<ymin>125</ymin>
+			<xmax>669</xmax>
+			<ymax>259</ymax>
+		</bndbox>
+	</object>
+</annotation>

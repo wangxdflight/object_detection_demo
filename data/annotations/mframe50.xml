@@ -1,0 +1,26 @@
+<annotation>
+	<folder>shadeRedBackgroundNoBase</folder>
+	<filename>mframe50.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentKyle\shadeRedBackgroundNoBase\mframe50.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>396</xmin>
+			<ymin>284</ymin>
+			<xmax>512</xmax>
+			<ymax>401</ymax>
+		</bndbox>
+	</object>
+</annotation>

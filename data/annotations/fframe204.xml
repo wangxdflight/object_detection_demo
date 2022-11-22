@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunglightredbackgroundbluebase</folder>
+	<filename>fframe204.jpg</filename>
+	<path>C:\Users\kyle_\development\object_detection_demo\data\raw\newAssignmentFiona\sunglightredbackgroundbluebase\fframe204.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>434</xmin>
+			<ymin>190</ymin>
+			<xmax>575</xmax>
+			<ymax>327</ymax>
+		</bndbox>
+	</object>
+</annotation>
